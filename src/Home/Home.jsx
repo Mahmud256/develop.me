@@ -9,12 +9,7 @@ import Footer from '../Components/Footer';
 const Home = () => {
     return (
         <div
-            className="min-h-screen bg-gradient-to-tr from-lime-200 via-white to-white p-5"
-            // style={{
-            //     background: 'linear-gradient(135deg, rgb(0,255,0), rgb(255,255,255))',
-            //     padding: '20px',
-            //     fontFamily: 'Arial, sans-serif',
-            // }}
+            className="min-h-screen"
         >
             <NavBar />
             <Seconds/>

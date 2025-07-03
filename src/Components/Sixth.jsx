@@ -3,7 +3,10 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Sixth = () => {
     return (
-        <div className="px-6 py-12">
+        <div
+            className="min-h-screen bg-[url('./assets/Vectord.png')] bg-cover bg-center"
+        >
+            <div className="px-6 py-12">
             {/* Top buttons */}
             <div className="flex mb-10">
                 <div className="left-0 -translate-y-1/2 flex items-center">
@@ -93,6 +96,8 @@ const Sixth = () => {
                 </div>
             </div>
         </div>
+        </div>
+        
     );
 };
 

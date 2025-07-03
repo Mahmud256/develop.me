@@ -2,7 +2,7 @@ import { FaHtml5, FaJs, FaGlobe } from 'react-icons/fa';
 
 const Third = () => {
     return (
-        <div className="card bg-black my-20 text-white">
+        <div className="card bg-black text-white mx-4">
             <div className="card-body">
                 {/* Top Section */}
                 <div className='left-0 translate-y-1/2 flex items-center mb-6'>

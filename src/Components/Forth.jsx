@@ -2,7 +2,10 @@ import React from 'react';
 
 const Forth = () => {
     return (
-        <div className="px-6  text-black">
+        <div
+            className="min-h-screen bg-[url('./assets/Vector(1).png')] bg-cover bg-center"
+        >
+            <div className="px-6  text-black">
             {/* Top Section - Top Right */}
             <div className="flex justify-end mb-10">
                 <div className="left-0 translate-y-1/2 flex items-center">
@@ -19,7 +22,7 @@ const Forth = () => {
 
             {/* Title Section - Centered */}
             <div className="text-center mb-12">
-                <h2 className="text-4xl font-bold mb-2">I’ve been <span className="bg-black text-white px-2">Developing</span></h2>
+                <h2 className="text-4xl font-bold mb-4">I’ve been <span className="bg-black text-white px-2">Developing</span></h2>
                 <h2 className="text-4xl font-bold mb-4">Websites since <span className="bg-black text-white px-2">2013</span></h2>
                 <p className="text-lg max-w-2xl mx-auto text-gray-600">
                     We start every new client interaction with an in-depth discovery call where we get to know each other and recommend the best course of action.
@@ -54,6 +57,8 @@ const Forth = () => {
                 </div>
             </div>
         </div>
+        </div>
+        
     );
 };
 

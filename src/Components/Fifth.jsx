@@ -2,7 +2,7 @@ import { HiArrowRight } from 'react-icons/hi';
 
 const Fifth = () => {
     return (
-        <div className="card bg-black text-white">
+        <div className="card bg-black text-white mx-4">
             <div className="card-body">
                 {/* Top Section */}
                 <div className="mb-10 relative">
